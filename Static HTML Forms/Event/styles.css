@@ -1,0 +1,100 @@
+body{
+    background-image: url("./carousel.jpg");
+    background-color:cornflowerblue;
+    background-size: 1300px 630px;
+    color: rgb(212, 229, 245);
+    margin: 100px;
+    margin-top: 0px;
+    border-top: 0px;
+}
+
+.coulumn{
+    width: 30%;
+    height:570px;
+    left: 200px;
+    background: linear-gradient(
+        #ffffffc9, hsla(0, 0%, 100%, 0.788), hsla(0, 0%, 100%, 0.863)
+    );
+    color: black;
+    border-top: solid;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.coulumn h1{
+    font-family: 'Grenze Gotisch', cursive;
+    color:crimson;
+    font-size: 50px;
+}
+
+.coulumn pre{
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 24px;
+}
+
+.coulumn p{
+    font-family: 'Playfair Display', serif;
+}
+
+form{
+    position: absolute;
+    width: 240px;
+    height: 400px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 80%;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    border-left: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.9);
+    padding: 5px 45px 40px 30px;
+}
+
+form *{
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+
+form h1{
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input{
+    display: block;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 5px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+form button{
+    margin-top: 30px;
+    width: 100%;
+    background: linear-gradient(
+        #ffffffc9, hsla(0, 0%, 100%, 0.863)
+    );
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+::placeholder{
+    color: #e5e5e5;
+}

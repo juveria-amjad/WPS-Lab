@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(
+        #6f9b57, #bff0a5
+    );
+    margin: 30px;
+    font-family: 'Overlock', cursive;
+}
+
+.column{
+    float: left;
+    padding: 10px;
+    width: 25%;
+    height: 550px;
+    background-color:rgb(134, 45, 134);
+    text-align: center;
+    border-radius: 15px;
+    color:aliceblue ;
+}
+
+.box{
+    padding: 10px;
+    border-top: solid 10px;
+    border-bottom: solid 10px;
+    text-align: center;
+}
+
+.box2{
+    padding:10px;
+    padding-left: 250px;
+}
+
+@media screen and (max-width: 700px) {
+    body{
+        background: linear-gradient(
+            #d6d1e3, #e5e1f0
+        );
+    }
+    .column{
+        background-color: rgb(105, 97, 226);
+    }
+    .box2{
+        padding-left: 190px;
+    }
+    
+}

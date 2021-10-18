@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/0f0c6581c2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="background">
+            <div class="background line">
+                <h1>Register</h1>
+            </div>
+            <div class="background shape"></div>
+            <div class="background shape2"></div>
+            <div class="background shape3"></div>
+        </div>
+
+        <form class="form1">
+            <table align="center" class="table1">
+                <tr>
+                    <td>
+                        <label for="email">Email</label>
+                        <input type="email" class="a" id="email" placeholder="Email" required>
+                    </td>
+                    <td>
+                        <label for="university">University</label>
+                        <input type="text" class="a" id="university" placeholder="University" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="typeOfDegree">Type of Degree</label>
+                        <input type="text" class="a" id="typeOfDegree" placeholder="Type of Degree" required>
+                    </td>
+                    <td>
+                        <label for="branch">Branch</label>
+                        <input type="text" class="a" name="Branch" id="branch" placeholder="Branch" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cgpa">CGPA</label>
+                        <input type="number" class="a" name="cgpa" id="cgpa" placeholder="CGPA" step="0.01" required>
+                    </td>
+                    <td>
+                        <label for="monthOfGraduation">Month of Graduation</label>
+                        <input type="month" class="a" name="Month of Graduation" id="monthOfGraduation" required>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="Submit" class="btn" style="background-color: #7f3042;" >
+        </form>
+        <a href="./personal.html"><button><i class="fas fa-arrow-left" style="color: whitesmoke;"></i></button></a>
+    </body>
+</html>

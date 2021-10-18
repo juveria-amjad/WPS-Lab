@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="background">
+            <div class="background line">
+                <h1>Register</h1>
+            </div>
+            <div class="background shape"></div>
+            <div class="background shape2"></div>
+            <div class="background shape3"></div>
+        </div>
+
+        <form action="./educational.html" class="form1">
+            <table align="center" class="table1">
+                <tr>
+                    <td>
+                        <label for="firstname">First Name</label>
+                        <input type="text" class="a" id="firstname" placeholder="First Name" required>
+                    </td>
+                    <td>
+                        <label for="lastname">Last Name</label>
+                        <input type="text" class="a" id="lastname" placeholder="Last Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">Gender</label>
+                        <input type="checkbox" class="b" id="gender" value="Woman">Woman
+                        <input type="checkbox" class="b" id="gender" value="Man">Man
+                        <input type="checkbox" class="b" id="gender" value="Transgender">Transgender
+                        <br/>
+                        <input type="checkbox" class="b" id="gender" value="Non-binary">Non-binary
+                        <input type="checkbox" class="b" id="gender" value="Prefer not to respond">Prefer not to respond
+                    </td>
+                    <td>
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" class="a" name="Date of Birth" id="dob" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="city">City</label>
+                        <input type="text" class="a" name="city" id="city" placeholder="City" required>
+                    </td>
+                    <td>
+                        <label for="state">State</label>
+                        <input type="state" class="a" name="state" id="state" placeholder="State" required>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="Next" class="btn">
+        </form> 
+
+    </body>
+</html>

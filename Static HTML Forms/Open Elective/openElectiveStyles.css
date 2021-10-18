@@ -1,0 +1,73 @@
+#register{
+    width: 60%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#register caption{
+    color: #1e90ff;
+    padding:20px;
+    font-size: 30px;
+}
+
+#register td, #register th{
+    padding: 5px;
+}
+
+#register th{
+    background-color: #1e90ff;
+    color: white;
+    
+}
+
+#register th:nth-child(4){
+    width: 50%;
+}
+
+#register td{
+    border: 1px solid #1e90ff;
+}
+
+#register td:nth-child(9){
+    color: red;
+    font-weight: bold;
+}
+
+select{
+    width: 100%;
+}
+
+#info{
+    width: 60%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+
+#info td, #info th{
+    padding: 10px;
+}
+
+#info th{
+    background-color: #1e90ff;
+    color:lightcoral;
+    height: 25px;
+}
+
+#info td{
+    border: 1px solid #1e90ff;
+    height: 30px;
+}
+
+button{
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+    background-color:#1e90ff;
+    color: white;
+    border-color: #1e90ff;
+    position: absolute;
+    left: 40%;
+}

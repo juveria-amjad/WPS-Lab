@@ -1,0 +1,87 @@
+body{
+    margin:0px;
+    border:0px;
+}
+.header1{
+    background: linear-gradient(
+        #1f4d7e,#19324d
+    );
+    color: white;
+    width: 100%;
+    height: 150px;
+}
+
+.header1.a{
+    float: left;
+    width: 25%;
+    height: 60%;
+    padding: 30px;
+}
+
+.header1.part{
+    float: right;
+    width: 10%;
+    height: 30%;
+    padding: 50px;
+}
+
+.header1 select{
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    left: 100px;
+}
+
+.form1{
+    /*border: 1px solid #1f4d7e;*/
+    position: relative;
+    text-align: center;
+    margin: 80px;
+    margin-left: 470px;
+    width: 340px;
+    height: 300px;
+}
+.form1 h2{
+    background-color:#1f4d7e;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 10px;
+
+}
+.form1 button{
+    background-color:#1f4d7e;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 40px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.feild{
+    display: block;
+    position: relative;
+    margin: 20px;
+    margin-left: 30px;
+}
+input{
+    letter-spacing: 0.7px;
+    height: 25px;
+    width: 70%;
+    border-radius: 30px;
+    padding: 5px 15px;
+}
+
+i{   
+    color:#1f4d7e;
+    float: left;
+    margin: 10px;
+}

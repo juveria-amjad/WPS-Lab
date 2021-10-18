@@ -1,0 +1,138 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #5e4b45;
+    background-color: whitesmoke;
+}
+
+.background{
+    width: 600px;
+    height: 750px;
+    position: absolute;
+    transform: translate(-20%,-30%);
+    left: 50%;
+    top: 50%;
+}
+
+.background.line{
+    height: 100px;
+    width: 1280px;
+    background: linear-gradient(
+       to right, #d5c7b4, #e3e2dc
+    );
+    z-index: -2;
+    top: -1%;
+    left: -45%;
+}
+
+.background.line h1{
+    color:whitesmoke;
+    margin-left: 250px;
+    margin-top: 28px;
+    font-size: 80px;
+}
+
+.background.shape{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(
+        #c76b81, #7f3042
+    );
+    top: 2%;
+    left: 84%;
+    z-index: 1;
+}
+.background.shape2{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    border-radius: 50%;
+    background:linear-gradient(
+        #503e34, #7b6051
+    );
+    top: 10%;
+    left: -74%;
+    z-index: -3;
+}
+
+.background.shape3{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(
+       to right, #af9d83 , #927d5d
+    );
+    top: 7%;
+    left: -64%;
+    z-index: -1;
+}
+
+.form1{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    transform: translate(20%,45%);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form1 label{
+    display: block;
+    padding-bottom: 10px;
+}
+
+.form1 label{
+    font-size: 24px;
+}
+
+.form1 input.a{
+    width: 100%;
+    height: 35px;
+    padding: 5px 15px;
+    letter-spacing: 0.5px;
+    border-radius: 30px;
+    border: 1px solid #e3e2dc;
+}
+
+.form1 input.b{
+    margin: 10px;
+}
+
+.table1 td{
+    padding: 15px;
+    width: 700px;
+}
+
+input.btn{
+    width: 90px; 
+    height: 40px;
+    background-color:#c76b81;
+    color: whitesmoke;
+    border: transparent;
+    border-radius: 5px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    right: -30%;
+    top: 64%;
+    cursor: pointer;
+}
+
+button{
+    width: 90px; 
+    height: 40px;
+    background-color:#c76b81;
+    border: transparent;
+    border-radius: 5px;
+    position: absolute;
+    top: 83%;
+    left: 2%;
+    cursor: pointer;
+}

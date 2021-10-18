@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OE Registration</title>
+        <link rel="stylesheet" href="./openElectiveStyles.css" >
+    </head>
+    <body>
+        <table align="center" id="register">
+            <caption>V Sem OE Registration</caption>
+            <tr>
+                <th>SNo</th>
+                <th>Select</th>
+                <th>Subject Code</th>
+                <th>Subject Name</th>
+                <th>Subject Acronym</th>
+                <th>Subject Preference Order</th>
+                <th>Department</th>
+                <th>Destination Branches</th>
+                <th>Remarks</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><input type="checkbox" id="select" checked></td>
+                <td>U19OE510CE</td>
+                <td>Spatial Information Technology</td>
+                <td>CE(OE)</td>
+                <td>
+                    <select>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td>Civil</td>
+                <td>CSE, IT</td>
+                <td>Not Registered</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><input type="checkbox" id="select" checked></td>
+                <td>U19OE510CS</td>
+                <td>Principles of Data Structures</td>
+                <td>CS(OE)</td>
+                <td>
+                    <select>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td>CSE</td>
+                <td>Civil, EEE, ECE and Mech</td>
+                <td>Not Registered</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><input type="checkbox" id="select" checked></td>
+                <td>U19OE510ME</td>
+                <td>Introduction to Robotics</td>
+                <td>ME(OE)</td>
+                <td>
+                    <select>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td>Mech.</td>
+                <td>CSE, IT</td>
+                <td>Not Registered</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><input type="checkbox" id="select" checked></td>
+                <td>U19OE510MA</td>
+                <td>Numerical Methods</td>
+                <td>MA(OE)</td>
+                <td>
+                    <select>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </td>
+                <td>Maths</td>
+                <td>CSE, IT</td>
+                <td>Not Registered</td>
+            </tr>
+        </table>
+        <br/>
+        <table align="center" id="info">
+            <tr>
+                <th colspan="2">Check if the given information is correct</th>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>
+                    <input type="email" id="email" value="sample@gmail.com" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="number">Phone No.</label>
+                </td>
+                <td>
+                    <input type="number" id="number" value="1234567889" />
+                </td>
+            </tr>
+        </table>
+       <button>Register</button>
+    </body>
+</html>
